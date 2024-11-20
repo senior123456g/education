@@ -1,0 +1,72 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: #0056b3;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Content Container */
+.content {
+    margin: 20px auto;
+    max-width: 800px; /* Set maximum width for the content */
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual Landform Section */
+.landform {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.landform h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Image Styling */
+.landform-image {
+    width: 100%;              /* Allow full width scaling */
+    max-width: 300px;         /* Limit maximum image width */
+    height: auto;             /* Maintain aspect ratio */
+    border-radius: 8px;       /* Rounded corners for aesthetics */
+    margin: 10px auto;        /* Center the images */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+/* Paragraph Styling */
+.landform p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 10px 0;
+    text-align: left; /* Align text to the left for readability */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .landform-image {
+        max-width: 250px; /* Adjust image size for medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .landform-image {
+        max-width: 200px; /* Adjust image size for small screens */
+    }
+}
+

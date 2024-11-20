@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landforms Lessons and Questions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="characteristics.html">characteristics</a>
+        <a href="significance.html">Significance</a>
+        <a href="lessons&quiz.html">Lessons & Quiz</a>
+    </nav>
+    <header>
+        <h1>Landforms Lessons and Questions</h1>
+    </header>
+
+    <div class="content">
+        <!-- Lessons Section -->
+        <div class="section" id="lessons">
+            <h2>Landforms Lessons</h2>
+            <div class="lesson">
+                <h3>Mountains</h3>
+                <p>Mountains are large landforms that rise steeply above the surrounding land, typically having a peak or summit. They are formed by tectonic forces, volcanic activity, and erosion. Mountain ranges like the Himalayas and Andes are examples of mountain landforms.</p>
+            </div>
+            <div class="lesson">
+                <h3>Valleys</h3>
+                <p>Valleys are low areas between hills or mountains, often formed by erosion from rivers and glaciers. The Grand Canyon and the Rhine Valley are examples of famous valleys.</p>
+            </div>
+            <div class="lesson">
+                <h3>Deserts</h3>
+                <p>Deserts are barren, dry regions with little precipitation. They have unique ecosystems and features like sand dunes, oases, and rocky plateaus. The Sahara and Arabian Desert are two of the largest deserts in the world.</p>
+            </div>
+            <div class="lesson">
+                <h3>Plateaus</h3>
+                <p>Plateaus are flat, elevated areas of land that have been uplifted due to tectonic movements or volcanic activity. The Colorado Plateau in the U.S. is a well-known plateau.</p>
+            </div>
+        </div>
+
+        <!-- Questions Section -->
+        <div class="section" id="questions">
+            <h2>Landforms Questions</h2>
+            <form id="quiz-form">
+                <div class="question">
+                    <p><strong>1. Which landform is characterized by a steep rise in elevation and a peak?</strong></p>
+                    <label><input type="radio" name="question1" value="mountain"> Mountain</label><br>
+                    <label><input type="radio" name="question1" value="valley"> Valley</label><br>
+                    <label><input type="radio" name="question1" value="desert"> Desert</label><br>
+                </div>
+                <div class="question">
+                    <p><strong>2. What type of landform is formed by the erosion of rivers over time?</strong></p>
+                    <label><input type="radio" name="question2" value="mountain"> Mountain</label><br>
+                    <label><input type="radio" name="question2" value="plateau"> Plateau</label><br>
+                    <label><input type="radio" name="question2" value="valley"> Valley</label><br>
+                </div>
+                <div class="question">
+                    <p><strong>3. Which landform is typically dry, barren, and receives very little rainfall?</strong></p>
+                    <label><input type="radio" name="question3" value="desert"> Desert</label><br>
+                    <label><input type="radio" name="question3" value="valley"> Valley</label><br>
+                    <label><input type="radio" name="question3" value="mountain"> Mountain</label><br>
+                </div>
+                <div class="question">
+                    <p><strong>4. Which of the following landforms is flat and elevated?</strong></p>
+                    <label><input type="radio" name="question4" value="plateau"> Plateau</label><br>
+                    <label><input type="radio" name="question4" value="desert"> Desert</label><br>
+                    <label><input type="radio" name="question4" value="valley"> Valley</label><br>
+                </div>
+                <button type="button" onclick="checkAnswers()">Submit Answers</button>
+            </form>
+            <div id="result"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
